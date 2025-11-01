@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: quick container helper */
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}

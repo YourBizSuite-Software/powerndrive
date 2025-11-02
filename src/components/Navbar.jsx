@@ -9,7 +9,7 @@ export default function Navbar() {
     <header className="bg-white shadow">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="text-xl font-bold tracking-tight">
-          Power<span className="text-Red-600">N</span>Drive
+          Power<span className="text-red-600">N</span>Drive
         </Link>
         <nav className="flex gap-2">
           <NavLink to="/" end className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Home</NavLink>

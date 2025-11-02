@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="bg-white shadow">
       <div className="container flex items-center justify-between h-16">
-        <Link to="/" className="text-2xl font-bold tracking-tight">
+        <Link to="/" className="text-xl font-bold tracking-tight">
           Power<span className="text-red-600">N</span>Drive <span className="text-red-600">Auto</span>
         </Link>
         <nav className="flex gap-2">
